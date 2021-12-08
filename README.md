@@ -1,10 +1,14 @@
 # Mailing Delay Test
-Generate mailing latency metrics for *prometheous* client
+Generate mailing latency metrics for *prometheus* client
 
 ## Four-way Delay Test
-* Outer (Gmail) $\Leftrightarrow$ Inner SMTP Server
+* From **Outer (Gmail)** to **Inner SMTP Server**
 
-* Outer (Gmail) $\Leftrightarrow$ Inner GSuite
+* From **Outer (Gmail)** to **Inner GSuite**
+
+* From **Inner SMTP Server** to **Outer (Gmail)**
+
+* From **Inner Gsuite** to **Outer (Gmail)**
 
 ## Usage
 ```shell
