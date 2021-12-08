@@ -12,10 +12,10 @@ from mail.recv import recv_from_imap
 from prometheus_client import start_http_server, Gauge, Info
 
 # Config that store account & password
-CONFIG_FILE = '/root/project/gmail-test/mail-test.cfg'
+CONFIG_FILE = '/root/mail-test/mail-test.cfg'
 DESCRIPTION = 'External mailing test'
 EPILOG = 'Calculate delay of four different direction'
-DAEMON_PID_FILE = '/root/project/gmail-test/.pid'
+DAEMON_PID_FILE = '/root/mail-test/.pid'
 
 # Object for sending and receiving test
 class Task:
