@@ -1,5 +1,5 @@
 # Mailing Delay Test
-Generate mailing latency metrics for *prometheous* client
+Generate mailing latency metrics for *prometheus* client
 
 ## Four-way Delay Test
 * Outer (Gmail) $\Leftrightarrow$ Inner SMTP Server
